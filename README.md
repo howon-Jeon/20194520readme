@@ -35,19 +35,19 @@ ps 명령어는 현재 실행 중인 프로세스의 스냅샷을 찍어 보여�
 
 | Option   | Description                                                                               |
 |----------|-------------------------------------------------------------------------------------------|
-| `a`      | Display processes associated with the terminal. Typically used with `x` to show all processes. |
-| `e`      | Display environment variables related to the process.                                      |
-| `f`      | Display processes in a tree format showing relationships.                                  |
-| `l`      | Display detailed (long) information about processes.                                       |
-| `u`      | Display processes based on the process owner.                                              |
-| `x`      | Display processes not associated with a terminal.                                          |
-| `p`      | Display the specified process.                                                             |
-| `-a`     | Display all processes except session leaders and processes not associated with a terminal. |
-| `-A`     | Display all processes.                                                                     |
-| `-C [process]` | Display only the specified process.                                                  |
-| `-e`     | Display all processes.                                                                     |
-| `-f`     | Display processes in UNIX style format.                                                    |
-| `-o [value]` | Specify output format, where value can be `pid`, `tty`, `time`, etc.                   |
+| `a`      | 터미널과 연관된 프로세스 출력.  보통 x 옵션과 연계하여 모든 프로세스를 출력할때 사용    |
+| `e`      |  프로세스에 관련된 환경 변수 정보 출력                                                   |
+| `f`      | 프로세스간 상속관계를 트리형식으로 출력                                                  |
+| `l`      | 프로세스의 정보를 길게 보여줌                                                            |
+| `u`      | 프로세스의 소유자를 기준으로 출력                                                        |
+| `x`      | 터미널에 종속되지 않는 프로세스 출력                                                     |
+| `p`      | 지정한 프로세스 출력                                                                     |
+| `-a`     | 세션리더를 제외하고 터미널에 종속되지 않은 모든 프로세스 출력                           |
+| `-A`     |  모든 프로세스 출력                                                                       |
+| `-C [process]` | 뒤에 입력된 프로세스만 출력                                                        |
+| `-e`     | 모든 프로세스 출력                                                                        |
+| `-f`     | 유닉스 스타일로 출력해줌                                                                 |
+| `-o [value]` |  출력 포맷을 지정함, 값에는 pid, tty, time 등을 지정한다.                           |
 -------
  
 
