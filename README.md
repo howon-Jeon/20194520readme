@@ -30,6 +30,24 @@ ps 명령어는 현재 실행 중인 프로세스의 스냅샷을 찍어 보여�
  
 >> bash 스크립트(script)를 통한 자동화에도 ps 명령어가 자주 사용되는데,주로 특정 프로세스에 시그널(signal)을 보내야 할 때 PID(process id)를 식별하기 위해서 쓰이기도 하고, 프로세스가 중단되면 다시 실행시키기 위해 감시하는 목적으로 쓰이기도 한다.  
 
+
+#### Common Options
+
+| Option   | Description                                                                               |
+|----------|-------------------------------------------------------------------------------------------|
+| `a`      | Display processes associated with the terminal. Typically used with `x` to show all processes. |
+| `e`      | Display environment variables related to the process.                                      |
+| `f`      | Display processes in a tree format showing relationships.                                  |
+| `l`      | Display detailed (long) information about processes.                                       |
+| `u`      | Display processes based on the process owner.                                              |
+| `x`      | Display processes not associated with a terminal.                                          |
+| `p`      | Display the specified process.                                                             |
+| `-a`     | Display all processes except session leaders and processes not associated with a terminal. |
+| `-A`     | Display all processes.                                                                     |
+| `-C [process]` | Display only the specified process.                                                  |
+| `-e`     | Display all processes.                                                                     |
+| `-f`     | Display processes in UNIX style format.                                                    |
+| `-o [value]` | Specify output format, where value can be `pid`, `tty`, `time`, etc.                   |
 -------
  
 
