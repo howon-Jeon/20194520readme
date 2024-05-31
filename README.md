@@ -53,8 +53,8 @@ kill 명령어는 특정 프로세스를 종료시키는 도구입니다. 프로
 
 
 - *주요 신호*:
-  1 SIGTERM (15): 프로세스를 정상적으로 종료 (기본 신호).
-  2 SIGKILL (9): 프로세스를 강제로 종료.
+  1. SIGTERM (15): 프로세스를 정상적으로 종료 (기본 신호).
+  2. SIGKILL (9): 프로세스를 강제로 종료.
 
 
 [리눅스명령어참고링크](https://inpa.tistory.com/entry/LINUX-%F0%9F%93%9A-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4-%EA%B4%80%EB%A6%AC-%EB%AA%85%EB%A0%B9%EC%96%B4-%F0%9F%92%AF-%EC%A0%95%EB%A6%AC-Foreground-Background)
