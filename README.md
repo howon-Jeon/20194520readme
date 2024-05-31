@@ -2,6 +2,8 @@
 
 리눅스에서 시스템 모니터링 및 프로세스 관리를 위해 자주 사용되는 명령어인 'top', 'ps', 'jobs', 'kill'에 대한 설명이다.
 
+![image](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.codestates.com%2Fblog%2Fcontent%2F%25EB%25A6%25AC%25EB%2588%2585%25EC%258A%25A4-%25EA%25B8%25B0%25EB%25B3%25B8-%25EB%25AA%2585%25EB%25A0%25B9%25EC%2596%25B4&psig=AOvVaw3nbBNcZu6Ng0TAdVZlcQcQ&ust=1717246793613000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCJCzmpf5t4YDFQAAAAAdAAAAABAE)
+
 
 ### `top` 명령
 
